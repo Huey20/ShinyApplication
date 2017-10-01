@@ -1,0 +1,36 @@
+---
+title: "Course Project: Shiny Application and Reproducible Pitch"
+author: "H.Y. Tay"
+date: "10/1/2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+The application is the course assignment of Developing Data Products module under Coursera Data Science Specialisation. THe tasks are:
+- Develop a Shiny application and deploy it on R studio's shiny server
+- Share the source code for ui.R and server.R files on GitHub repo
+
+## Shiny Application (1/2)
+The Shiny application created for this assignment is an interactive plot using the ChickWeight dataset in R. It is a dataset that contains the body weights of chicks measured at birth, and every second day thereafter until day 20. There are 4 types of protein diets.
+```{r chickweight, echo = TRUE}
+summary(ChickWeight)
+```
+
+## Shiny Application (2/2)
+The application lets you pick the type of Diet and the age of the chicks (by days). The corresponding histogram on the chicks' weights will be displayed on the right hand side panel.
+
+https://hueytay.shinyapps.io/assignment/
+
+![picture of application](/Users/tayhueyyuin/Desktop/Assignment.png)
+
+## The Reproducible Pitch Presentation
+This presentation was prepared using R Presentation in R studio, and is published in R Pubs website.
+
+Weblink of the presentation is:
+
+It can also be found on GitHub:
