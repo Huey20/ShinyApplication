@@ -24,13 +24,15 @@ summary(ChickWeight)
 ## Shiny Application (2/2)
 The application lets you pick the type of Diet and the age of the chicks (by days). The corresponding histogram on the chicks' weights will be displayed on the right hand side panel.
 
-https://hueytay.shinyapps.io/assignment/
+https://hueytay.shinyapps.io/ShinyApplication/
 
 ![picture of application](/Users/tayhueyyuin/Desktop/Assignment.png)
 
 ## The Reproducible Pitch Presentation
 This presentation was prepared using R Presentation in R studio, and is published in R Pubs website.
 
-Weblink of the presentation is:
+The link to the presentation slide is:
+https://rpubs.com/Huey/ShinyApplication
 
-It can also be found on GitHub:
+The source codes are on Github
+https://github.com/Huey20/ShinyApplication

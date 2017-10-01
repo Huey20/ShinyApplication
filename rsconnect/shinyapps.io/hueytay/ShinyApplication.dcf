@@ -1,0 +1,13 @@
+name: ShinyApplication
+title: ShinyApplication
+username:
+account: hueytay
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 220762
+bundleId: 1005295
+url: https://hueytay.shinyapps.io/ShinyApplication/
+when: 1506834544.45784
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Assignment.html|Assignment.Rmd|Untitled.html

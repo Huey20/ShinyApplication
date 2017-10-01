@@ -6,7 +6,8 @@ data <-ChickWeight
 
 
 shinyUI(fluidPage(
-  titlePanel("Chickweight vs Diet"),
+  titlePanel("ChickWeight vs Different Protein Diets"),
+  h4("This application lets you pick the different types of diets and age of the chicks. The corresponding distribution of weight is on the right hand side graph."),
   
   # Sidebar with a slider input and radiobuttons
   sidebarLayout(
